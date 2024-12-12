@@ -177,7 +177,7 @@ public class DracarysVoyage extends JPanel implements ActionListener,KeyListener
         g.setColor(Color.ORANGE);
         g.setFont(new Font("Arial",Font.BOLD,32));
         if(gameOver) {
-        	g.drawString("Game Over: "+String.valueOf((int)score),10,35);
+        	g.drawString("Game Over: "+String.valueOf((int)score),85,320);
         }
         else {
         	g.drawString(String.valueOf((int)score),10,35);
